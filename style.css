@@ -1,0 +1,182 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./ka2.ttf);
+}
+body{
+    font-family: myFirstFont;
+    background-color: #407088;
+}
+div{
+    border-radius: 10px;
+}
+.main{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 500px;
+    display: block;
+    background-color: #4B4A54;
+    border-radius: 12px;
+    
+}
+.entry_box{
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 10px;
+    position: relative;
+    width: 450px;
+    height: 50px;
+    top: 20px;
+    left: 25px;
+    
+
+    background-color: #B5B5B5;
+}
+.row{
+    
+    height: 50px;
+    font-size: xx-large;
+    margin-left: 12px;
+    gap: 10px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.Button{
+    padding-top: 25px;
+    height: 50px;
+    text-align: center;
+    background-color: #C4D7FF;
+    width: 150px;
+}
+.Button:hover{
+    background-color: #7388b4;
+    
+
+}
+.Button:active{
+    background-color: #2c467e;
+}
+
+
+
+.equal_button{
+    flex-basis: 300px;
+    padding-top: 20px;
+    background-color: #FFBF61;
+    font-size: xx-large;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.equal_button:hover{
+    background-color: #b68439;
+}
+.equal_button:active{
+    background-color: #976925;
+}
+
+.multipy_button{
+    flex-basis: 70px;
+    padding-top: 20px;
+    padding-left: 4px;
+    background-color: #FFBF61;
+    font-size: xx-large;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.multipy_button:hover{
+    background-color: #b68439;
+}
+.multipy_button:active{
+    background-color: #976925;
+}
+
+.sum_button{
+    flex-basis: 70px;
+    padding-top: 20px;
+    background-color: #FFBF61;
+    font-size: xx-large;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.sum_button:hover{
+    background-color: #b68439;
+}
+.sum_button:active{
+    background-color: #976925;
+}
+
+.min_button{
+    flex-basis: 70px;
+    padding-top: 20px;
+    background-color: #FFBF61;
+    font-size: xx-large;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.min_button:hover{
+    background-color: #b68439;
+}
+.min_button:active{
+    background-color: #976925;
+}
+
+.div_button{
+    flex-basis: 70px;
+    padding-top: 20px;
+    background-color: #FFBF61;
+    font-size: xx-large;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.div_button:hover{
+    background-color: #b68439;
+}
+.div_button:active{
+    background-color: #976925;
+}
+
+
+
+.clear_button{
+    
+    flex-basis: 70px;
+    padding-top: 20px;
+    padding-left: 4px;
+    background-color: #FF6500;
+    font-size: xx-large;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.clear_button:hover{
+    background-color: #af4905;
+}
+.clear_button:active{
+    background-color: #6e3209;
+}
+
+
+.mem_button{
+    
+    flex-basis: 70px;
+    padding-top: 20px;
+    padding-left: 4px;
+    background-color: #FFBF61;
+    font-size: xx-large;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+.mem_button:hover{
+    background-color: #b68439;
+}
+.mem_button:active{
+    background-color: #976925;
+}
